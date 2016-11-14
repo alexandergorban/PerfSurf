@@ -10,7 +10,7 @@ namespace PerfSurf.Counters
             _counters = new List<PerfCounterWrapper>();
             _counters.Add(new PerfCounterWrapper("Processor", "Processor", "% Processor Time", "_Total"));
             _counters.Add(new PerfCounterWrapper("Paging", "Memory", "Pages/sec"));
-            _counters.Add(new PerfCounterWrapper("Disk", "PhisicalDisk", "% Disk Time", "_Total"));
+            _counters.Add(new PerfCounterWrapper("Disk", "PhysicalDisk", "% Disk Time", "_Total"));
         }
 
         public dynamic GetResults()
